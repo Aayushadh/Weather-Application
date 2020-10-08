@@ -3,7 +3,7 @@ const msg1=document.querySelector('#msg1');
 const msg2=document.querySelector('#msg2');
 const msg3=document.querySelector('#msg3');
 function weatherForecast(location){
-fetch(`http://localhost:3000/weather?address=${location}`).then((response)=>{
+fetch(`/weather?address=${location}`).then((response)=>{
     response.json().then((data)=>{
         if(data.code)
         {
