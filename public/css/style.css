@@ -1,0 +1,55 @@
+body
+{
+    align-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+h3{
+    color:brown;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+}
+img{
+    position: relative;
+    left: 40%;
+    margin: 20px;
+    
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color:burlywood;
+}
+a:hover
+{
+    color:black;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.navbar
+{
+    text-align:center;
+    font-size: 2rem;
+  
+}
+img{
+    width: 10rem;
+}
+form{
+    text-align: center;
+}
+.weatherimg
+{
+
+    position: relative;
+    left:0;
+
+}
