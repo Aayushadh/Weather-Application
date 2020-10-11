@@ -2,6 +2,7 @@ const request = require('request');
 
 function getWeatherdata(address, callback) {
     const url = "http://api.weatherapi.com/v1/forecast.json?key=45a461482a5647a9a1e102529200510&q=" + address + "&days=1";
+    
     request({
         url: url,
         json: true
